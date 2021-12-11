@@ -41,9 +41,7 @@ public class Gato {
 		this.idade = idade;
 	}
 	
-	public void falar() {
-		System.out.println("miauuuuuu!");
-	}
+	
 
 	@Override
 	public String toString() {
