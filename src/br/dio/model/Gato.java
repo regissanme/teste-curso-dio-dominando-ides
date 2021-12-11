@@ -40,6 +40,10 @@ public class Gato {
 	public void setIdade(Integer idade) {
 		this.idade = idade;
 	}
+	
+	public void falar() {
+		System.out.println("miauuuuuu!");
+	}
 
 	@Override
 	public String toString() {
