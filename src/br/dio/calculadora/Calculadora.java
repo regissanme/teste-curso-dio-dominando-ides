@@ -63,7 +63,7 @@ public class Calculadora {
 			}
 
 		} while (operacao != 0);
-		System.out.println("Calculadora finalizada!");
+		System.out.println("\n*** Calculadora finalizada! ***");
 	}
 
 }
