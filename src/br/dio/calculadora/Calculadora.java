@@ -2,6 +2,13 @@ package br.dio.calculadora;
 
 import java.util.Scanner;
 
+/**
+ * Especialista da DIO: Camila Cavalcante Criação de uma calculadora para o
+ * curso "Dominando IDE's Java" da DIO para o Bootcamp Java Cognizant
+ * #teamJavaCog
+ * 
+ * @author Reginaldo Santos de Medeiros data: 12/12/2021 *
+ */
 public class Calculadora {
 
 	public static int soma(int a, int b) {
@@ -34,7 +41,7 @@ public class Calculadora {
 			System.out.print(" | Escolha a operação: ");
 			operacao = scanner.nextInt();
 			switch (operacao) {
-			case 0: 
+			case 0:
 				System.out.println("Saindo da calculadora...");
 				break;
 			case 1:
